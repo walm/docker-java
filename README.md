@@ -10,7 +10,7 @@ Sets up a container based on [walm/docker-base](https://github.com/walm/docker-b
 
 To run the container, do the following:
 
-  docker run -d walm/docker-java
+  docker run -d walm/java-base
 
 ## Building
 
@@ -20,7 +20,7 @@ To build the image, simply invoke
 
 A prebuilt container is also available in the docker index
 
-    docker pull walm/docker-java
+    docker pull walm/java-base
 
 ## Author
 
