@@ -1,6 +1,6 @@
 # Java image for Docker container
 
-Sets up a container based on [walm/docker-base](https://github.com/walm/docker-base)
+Sets up a container based on [walm/base](https://github.com/walm/docker-base)
 
 ## Includes
 
@@ -10,7 +10,7 @@ Sets up a container based on [walm/docker-base](https://github.com/walm/docker-b
 
 To run the container, do the following:
 
-  docker run -d walm/java-base
+  docker run -d walm/java
 
 ## Building
 
@@ -20,7 +20,7 @@ To build the image, simply invoke
 
 A prebuilt container is also available in the docker index
 
-    docker pull walm/java-base
+    docker pull walm/java
 
 ## Author
 

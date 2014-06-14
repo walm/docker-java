@@ -1,4 +1,4 @@
-FROM walm/docker-base:0.1.0
+FROM walm/base:0.1.1
 MAINTAINER Andreas Wålm "andreas@walm.net"
 
 RUN apt-get update -qq
